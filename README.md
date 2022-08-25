@@ -5,9 +5,9 @@
 #### Docente:
 Germain Garcia Zanabria
 #### Colaboradores:
--CHOQUECONZA QUISPE NORGAN SANDRO 
--HUAHUATICO SORIA RONALD
--MUNOZ MUNOZ WILY RODRIGO 
+-CHOQUECONZA QUISPE NORGAN SANDRO<br> 
+-HUAHUATICO SORIA RONALD<br> 
+-MUNOZ MUNOZ WILY RODRIGO<br> 
 ## Tabla de Contenido
 - Introducción: Descripción del problema
 - FUENTE DE LOS DATOS
