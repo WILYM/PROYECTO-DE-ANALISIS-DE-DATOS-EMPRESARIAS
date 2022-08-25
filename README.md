@@ -29,6 +29,7 @@ Realizamos un analisis de los datos de sismos del Perú, en la cual se muestra u
 Las dimensiones del data set son:
 - 23712 registros de sismos
 - 7 campos
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/12a90a5b5c84e197dd8b73eebd2f20716e0926fd/Tipo1.png)
 - ID: Indica el numero de sismo
 - FECHA_UTC: Corresponde al tiempo Coordinated Universal Time. 
 - HORA_UTC: Corresponde al tiempo, Perú(UTC -5)
