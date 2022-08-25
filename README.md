@@ -67,4 +67,10 @@ TASK 3:
 ## Gráficas de análisis
 TASK 1: Hallamos la cantidad de sismos ocurridos por cada región y generamos un mapa coroplético.<br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/2546605d6198c81175eca2835a64cb7179655cde/Mapa.png) <br>
+
+TASK 2:
 Principalmente existen mayor cantidad de sismos en el Perú por el proceso de subducción originado por la convergencia de las placas de Nazca ubicada en el océano  y Sudamericana la continental. En el Perú se distinguen dos modos de subducción, subhorizontal en las regiones norte y centro, y subducción normal en la región sur. En la actualidad, estudios de GPS han permitido conocer que el proceso de subducción se realiza con velocidades del orden de 7 a 9 cm/año.
+- Sismos por magnitud maximo por años <br>
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c7df2594322928ed0a9ac0e3cae885e6c201fe5b/graficosismos.png)
+- Cantidad de sismos por años<br>
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c7df2594322928ed0a9ac0e3cae885e6c201fe5b/sismo%20anios.png)
