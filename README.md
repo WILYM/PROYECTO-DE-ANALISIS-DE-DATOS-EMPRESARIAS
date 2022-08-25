@@ -29,7 +29,7 @@ Realizamos un analisis de los datos de sismos del Perú, en la cual se muestra u
 Las dimensiones del data set son:
 - 23712 registros de sismos
 - 7 campos
-![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/12a90a5b5c84e197dd8b73eebd2f20716e0926fd/Tipo1.png)
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/Cap1.png)
 - ID: Indica el numero de sismo
 - FECHA_UTC: Corresponde al tiempo Coordinated Universal Time. 
 - HORA_UTC: Corresponde al tiempo, Perú(UTC -5)
@@ -42,13 +42,14 @@ Las dimensiones del data set son:
 
 Utilizando excel convertimos a un formate de fecha  : =CONCAT(EXTRAE(B2,1,4),"/",EXTRAE(B2,5,2),"/",EXTRAE(B2,7,2)) <br>
 Utilizando excel convertimos a un formate de  hora  : =CONCAT(EXTRAE(C2,1,2),":",EXTRAE(C2,3,2),":",EXTRAE(C2,5,2))
-![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/04786b940ffe64e98a15950b19ad6b028a780df5/pict2.png)
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/Cap2.png)
 - Relizamos conversion a nuestro horario de peru
 Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga referencia al dia anterior
 =CONCAT(I2," ",H2)
 Esta funcion afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24) <br>
 - Utilizando la latitud y longitud obtenemos la ubicacion  en google seets y su complemento apps script
 en los archivos se menciona el codigo <b>Geocodificacion.txt</b>
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/fecha%20y%20hora.png)
 
 
 ## Resultado:
