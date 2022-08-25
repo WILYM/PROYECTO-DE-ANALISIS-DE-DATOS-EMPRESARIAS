@@ -49,10 +49,10 @@ Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga re
 Esta funcion afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24) <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/fecha%20y%20hora.png)
 - utiliza Reverse Geocoding de google para obtener datos de la ubicación
-![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/Reverse.png)
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/Reverse.png) <br>
 - Para miles de datos utilizamos el google seets y su complemento apps script
 y el codigo esta en <b>Geocodificacion.txt</b>:
-![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/direc1.png)
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/direc1.png) <br>
 https://docs.google.com/spreadsheets/d/1yzd163-goiJOKRUHT3ZBEan8C6n4X2CabU50d16S-xA/edit?usp=sharing
 
 
