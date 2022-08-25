@@ -54,9 +54,14 @@ Esta funcion afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/2
 y el codigo esta en <b>Geocodificacion.txt</b>:
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/direc1.png) <br>
 https://docs.google.com/spreadsheets/d/1yzd163-goiJOKRUHT3ZBEan8C6n4X2CabU50d16S-xA/edit?usp=sharing
+## Analitical tasks
+TASK 1:
+Determinar regiones altamente sísmicas.
 
+TASK 2:
+¿Porqué sucede? 
 
+TASK 3:
+¿Que se esta realizando para concientizar a la población?
 
-## Resultado:
-
-## Restricciones:
+## Gráficas de análisis
