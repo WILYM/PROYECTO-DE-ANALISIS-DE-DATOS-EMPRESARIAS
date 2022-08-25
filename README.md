@@ -18,7 +18,7 @@ Germain Garcia Zanabria
 ## Fuente de los datos
 Los datos fueron extraidos de la base de datos de la [IGP](https://www.datosabiertos.gob.pe/dataset/catalogo-sismico-1960-2021-igp)
 ## Objetivos
-Realizamos un analisis de los datos de sismos del Perú, en la cual se meuestra un mapa coropletico de los sucesos sismicos por region en el peru
+Realizamos un analisis de los datos de sismos del Perú, en la cual se muestra un mapa coropletico de los sucesos sismicos por region en el peru
 ### Implementado en:
 ### Descripcion del problema
 
