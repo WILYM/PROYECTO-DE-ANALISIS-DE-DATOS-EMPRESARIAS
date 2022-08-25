@@ -43,10 +43,10 @@ Las dimensiones del data set son:
 Utilizando excel convertimos a un formato de fecha  : =CONCAT(EXTRAE(B2,1,4),"/",EXTRAE(B2,5,2),"/",EXTRAE(B2,7,2)) <br>
 Utilizando excel convertimos a un formato de  hora  : =CONCAT(EXTRAE(C2,1,2),":",EXTRAE(C2,3,2),":",EXTRAE(C2,5,2))
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/Cap2.png)
-- Relizamos conversion a nuestro horario de peru
-Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga referencia al dia anterior
+- Relizamos conversión a nuestro horario de Perú <br>
+Concatenamos los datos de fecha y hora, en caso de que la resta (UTC-5) y tiempo haga referencia al dia anterior, entonces disminuimos en hora y fecha
 =CONCAT(I2," ",H2) <br>
-Esta función afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24) <br>
+Esta función afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24)  <br><br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/fecha%20y%20hora.png)
 - utiliza Reverse Geocoding de google para obtener datos de la ubicación
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/Reverse.png) <br>
