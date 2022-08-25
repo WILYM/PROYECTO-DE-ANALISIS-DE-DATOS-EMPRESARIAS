@@ -44,7 +44,7 @@ Utilizando excel convertimos a un formate de  hora  : =CONCAT(EXTRAE(C2,1,2),":"
 Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga referencia al dia anterior
 =CONCAT(I2," ",H2)
 Esta funcion afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24)
-
+- Utilizando la latitud y longitud obtenemos la ubicacion
 
 ## Resultado:
 
