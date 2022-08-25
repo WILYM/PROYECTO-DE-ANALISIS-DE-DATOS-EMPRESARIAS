@@ -65,6 +65,7 @@ TASK 3:
 ¿Que se esta realizando para concientizar a la población?
 
 ## Gráficas de análisis
-TASK 1:
+TASK 1: Hallamos la cantidad de sismos ocurridos por cada región y generamos un mapa coroplético.
+<p>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/2546605d6198c81175eca2835a64cb7179655cde/Mapa.png)<br>
 Principalmente existen mayor cantidad de sismos en el Perú por el proceso de subducción originado por la convergencia de las placas de Nazca ubicada en el océano  y Sudamericana la continental. En el Perú se distinguen dos modos de subducción, subhorizontal en las regiones norte y centro, y subducción normal en la región sur. En la actualidad, estudios de GPS han permitido conocer que el proceso de subducción se realiza con velocidades del orden de 7 a 9 cm/año.
