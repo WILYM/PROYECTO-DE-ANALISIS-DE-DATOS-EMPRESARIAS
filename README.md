@@ -85,3 +85,11 @@ RED ACELEROGRÁFICA SENCICO <br>
 
 - Cantidad de sismos por horas <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/ec44aade1e654410b01227588deb85c60f2bea56/horas.png)
+
+- ¿Puede la posición de la luna o de los planetas afectar la sismicidad? ¿Hay más terremotos en la mañana/en la tarde/en un momento determinado del mes?
+
+Varios estudios recientes han encontrado una correlación entre las mareas terrestres (causadas por la posición de la luna con respecto a la tierra) y algunos tipos de terremotos. Un estudio, por ejemplo, concluye que durante las épocas de mareas terrestres y oceánicas más altas, como durante las épocas de luna llena o luna nueva, los terremotos son más probables en fallas de cabalgamiento poco profundas cerca de los bordes de los continentes y en zonas de subducción (submarinas). Las mareas terrestres y especialmente las mareas oceánicas elevan y reducen la presión de confinamiento en fallas de inmersión poco profundas cerca de los bordes continentales y en zonas de subducción.
+Cuando se reduce la presión de confinamiento, las fallas se liberan y es más probable que se deslicen. La mayor probabilidad es un factor de ~3 durante las mareas altas. <br>
+Fuente: https://www.usgs.gov/faqs/can-position-moon-or-planets-affect-seismicity-are-there-more-earthquakes-morningin-eveningat
+
+
