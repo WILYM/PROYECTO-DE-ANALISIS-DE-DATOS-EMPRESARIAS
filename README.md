@@ -76,9 +76,12 @@ TASK 3:
 Existen redes acelerográficas, es un arreglo de varios acelerógrafos colocados en una región de interés para conocer características del subsuelo donde se instalan. Los acelerógrafos están integrados por sensores de aceleración y un registrador que mide las aceleraciones del suelo provocadas principalmente por los sismos.<br>
 RED ACELEROGRÁFICA SENCICO <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c245e09304e9fe3216050cf3b7585b13c2e30e92/Acelerografias.png)
-RED ACELEROGRÁFICA EN CUSCO <br>
+<br>RED ACELEROGRÁFICA EN CUSCO <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c245e09304e9fe3216050cf3b7585b13c2e30e92/acele.png)
 - Sismos por magnitud maximo por años <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c7df2594322928ed0a9ac0e3cae885e6c201fe5b/graficosismos.png)
 - Cantidad de sismos por años<br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c7df2594322928ed0a9ac0e3cae885e6c201fe5b/sismo%20anios.png)
+
+- Cantidad de sismos por horas <br>
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/ec44aade1e654410b01227588deb85c60f2bea56/horas.png)
