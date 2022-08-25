@@ -42,6 +42,7 @@ Las dimensiones del data set son:
 
 Utilizando excel convertimos a un formate de fecha  : =CONCAT(EXTRAE(B2,1,4),"/",EXTRAE(B2,5,2),"/",EXTRAE(B2,7,2)) <br>
 Utilizando excel convertimos a un formate de  hora  : =CONCAT(EXTRAE(C2,1,2),":",EXTRAE(C2,3,2),":",EXTRAE(C2,5,2))
+![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/04786b940ffe64e98a15950b19ad6b028a780df5/pict2.png)
 - Relizamos conversion a nuestro horario de peru
 Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga referencia al dia anterior
 =CONCAT(I2," ",H2)
