@@ -15,18 +15,13 @@ Germain Garcia Zanabria
 - ANALITICAL TASKS
 - GRÁFICAS DE ANÁLISIS
 - INSIGHTS
-## Descripcion del problema
-Los sismos ocurren cada día, normalmente se consideran desde 3.0 a la escala de Richter, no sabemos con qué frecuencia suceden los sismos cada año, si existe algún sismo que sucedió al mismo tiempo, y cómo afecta la profundidad y la magnitud a las construcciones y el alcance del movimiento en km.
-No existe un análisis por escala o magnitud.
-Existe poco estudio en el Perú sobre los sismos, aunque en los últimos años, están desarrollando un sistema “SISMATE” Sistema de Mensajería de Alerta Temprana de Emergencias por  INDECI y MTC.
 ## Fuente de los datos
 Los datos fueron extraidos de la base de datos de la [IGP](https://www.datosabiertos.gob.pe/dataset/catalogo-sismico-1960-2021-igp)
 ## Objetivos
 Realizamos un analisis de los datos de sismos del Perú, en la cual se meustra un mapa coropletico de los sucesos sismicos por region
 ### Implementado en:
+### Descripcion del problema
 
-
-## Datos de entrada:
 
 ## Resultado:
 
