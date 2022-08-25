@@ -21,10 +21,10 @@ Germain Garcia Zanabria
 - Existe poco estudio en el Perú sobre los sismos, aunque en los últimos años, están desarrollando un sistema “SISMATE” Sistema de Mensajería de Alerta Temprana de Emergencias por  INDECI y MTC.<br>
 
 ## Fuente de los datos
-Los datos fueron extraidos de la base de datos de la [IGP](https://www.datosabiertos.gob.pe/dataset/catalogo-sismico-1960-2021-igp)
+Los datos fueron extraídos de la base de datos de la [IGP](https://www.datosabiertos.gob.pe/dataset/catalogo-sismico-1960-2021-igp)
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/bd8cb5cca628d16804a3f3aa52d573e2c042be86/Date1.png)
 ## Objetivos
-Realizamos un analisis de los datos de sismos del Perú, en la cual se muestra un mapa coropletico de los sucesos sismicos por region en el peru
+Realizamos un análisis de los datos de sismos del Perú, en la cual se muestra un mapa coroplético de los sucesos sísmicos por región en el Perú.
 ## Descripción del dataset
 Las dimensiones del data set son:
 - 23712 registros de sismos
@@ -40,13 +40,13 @@ Las dimensiones del data set son:
 
 ### Transformación de datos
 
-Utilizando excel convertimos a un formate de fecha  : =CONCAT(EXTRAE(B2,1,4),"/",EXTRAE(B2,5,2),"/",EXTRAE(B2,7,2)) <br>
-Utilizando excel convertimos a un formate de  hora  : =CONCAT(EXTRAE(C2,1,2),":",EXTRAE(C2,3,2),":",EXTRAE(C2,5,2))
+Utilizando excel convertimos a un formato de fecha  : =CONCAT(EXTRAE(B2,1,4),"/",EXTRAE(B2,5,2),"/",EXTRAE(B2,7,2)) <br>
+Utilizando excel convertimos a un formato de  hora  : =CONCAT(EXTRAE(C2,1,2),":",EXTRAE(C2,3,2),":",EXTRAE(C2,5,2))
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/Cap2.png)
 - Relizamos conversion a nuestro horario de peru
 Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga referencia al dia anterior
-=CONCAT(I2," ",H2)
-Esta funcion afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24) <br>
+=CONCAT(I2," ",H2) <br>
+Esta función afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24) <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/0bf01ff03a74fe6e589f4a6de96e33259d5b2a76/fecha%20y%20hora.png)
 - utiliza Reverse Geocoding de google para obtener datos de la ubicación
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/53101962418fd9c8e520fc4f6fffbc062dda7091/Reverse.png) <br>
@@ -71,10 +71,10 @@ TASK 1: Hallamos la cantidad de sismos ocurridos por cada región y generamos un
 TASK 2:
 Principalmente existen mayor cantidad de sismos en el Perú por el proceso de subducción originado por la convergencia de las placas de Nazca ubicada en el océano  y Sudamericana la continental. En el Perú se distinguen dos modos de subducción, subhorizontal en las regiones norte y centro, y subducción normal en la región sur. En la actualidad, estudios de GPS han permitido conocer que el proceso de subducción se realiza con velocidades del orden de 7 a 9 cm/año.
 TASK 3:
-Existen redes acelerográficas, es un arreglo de varios acelerógrafos colocados en una región de interés para conocer características del subsuelo donde se instalan. Los acelerógrafos están integrados por sensores de aceleración y un registrador que mide las aceleraciones del suelo provocadas principalmente por los sismos.
+Existen redes acelerográficas, es un arreglo de varios acelerógrafos colocados en una región de interés para conocer características del subsuelo donde se instalan. Los acelerógrafos están integrados por sensores de aceleración y un registrador que mide las aceleraciones del suelo provocadas principalmente por los sismos.<br>
 RED ACELEROGRÁFICA SENCICO <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c245e09304e9fe3216050cf3b7585b13c2e30e92/Acelerografias.png)
-RED ACELEROGRÁFICA SENCICO CUSCO <br>
+RED ACELEROGRÁFICA EN CUSCO <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c245e09304e9fe3216050cf3b7585b13c2e30e92/acele.png)
 - Sismos por magnitud maximo por años <br>
 ![Detalles](https://github.com/Romehe369/Analisis_Datos/blob/c7df2594322928ed0a9ac0e3cae885e6c201fe5b/graficosismos.png)
