@@ -5,6 +5,9 @@
 #### Docente:
 Germain Garcia Zanabria
 #### Colaboradores:
+-CHOQUECONZA QUISPE NORGAN SANDRO 
+-HUAHUATICO SORIA RONALD
+-MUNOZ MUNOZ WILY RODRIGO 
 ## Tabla de Contenido
 - Introducción: Descripción del problema
 - FUENTE DE LOS DATOS
