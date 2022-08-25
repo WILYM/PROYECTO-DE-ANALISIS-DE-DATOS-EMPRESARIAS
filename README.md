@@ -24,6 +24,17 @@ Germain Garcia Zanabria
 Los datos fueron extraidos de la base de datos de la [IGP](https://www.datosabiertos.gob.pe/dataset/catalogo-sismico-1960-2021-igp)
 ## Objetivos
 Realizamos un analisis de los datos de sismos del Perú, en la cual se muestra un mapa coropletico de los sucesos sismicos por region en el peru
+## Descripción del dataset
+Las dimensiones del data set son:
+- 20260 registros de sismos
+### 6 campos
+- FECHA_UTC: Corresponde al tiempo Coordinated Universal Time. 
+- HORA_UTC: Corresponde al tiempo, Perú(UTC -5)
+- LATITUD : Es la distancia en grados, minutos y segundos que hay con respecto al paralelo principal, que es el ecuador.
+- LONGITUD: Es la distancia en grados, minutos y segundos que hay con respecto al meridiano principal, que es el meridiano de Greenwich.
+- PROFUNDIDAD : Implica a cuantos km de la capa terrestre se detectó el movimiento.
+- MAGNITUD : Indica la escala en la que sucedió.
+
 ### Implementado en:
 
 
