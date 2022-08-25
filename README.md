@@ -9,12 +9,14 @@ Germain Garcia Zanabria
 -HUAHUATICO SORIA RONALD<br> 
 -MUNOZ MUNOZ WILY RODRIGO<br> 
 ## Tabla de Contenido
-- Introducción: Descripción del problema
+- DESCRIPCIÓN DEL PROBLEMA
 - FUENTE DE LOS DATOS
+- OBJETIVOS
 - DESCRIPCIÓN DEL DATASET
+- TRANSFORMACIÓN DE DATOS
 - ANALITICAL TASKS
 - GRÁFICAS DE ANÁLISIS
-- INSIGHTS
+
 ## Descripcion del problema
 - Los sismos ocurren cada día, normalmente se consideran desde 3.0 a la escala de Richter, no sabemos con qué frecuencia suceden los sismos cada año, si existe algún sismo que sucedió al mismo tiempo, y cómo afecta la profundidad y la magnitud a las construcciones y el alcance del movimiento en km.<br>
 - No existe un análisis por escala o magnitud.<br>
