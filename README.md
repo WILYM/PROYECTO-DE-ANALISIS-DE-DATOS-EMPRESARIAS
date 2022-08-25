@@ -26,8 +26,9 @@ Los datos fueron extraidos de la base de datos de la [IGP](https://www.datosabie
 Realizamos un analisis de los datos de sismos del Perú, en la cual se muestra un mapa coropletico de los sucesos sismicos por region en el peru
 ## Descripción del dataset
 Las dimensiones del data set son:
-- 20260 registros de sismos
-### 6 campos
+- 23712 registros de sismos
+- 7 campos
+- ID: Indica el numero de sismo
 - FECHA_UTC: Corresponde al tiempo Coordinated Universal Time. 
 - HORA_UTC: Corresponde al tiempo, Perú(UTC -5)
 - LATITUD : Es la distancia en grados, minutos y segundos que hay con respecto al paralelo principal, que es el ecuador.
@@ -35,8 +36,14 @@ Las dimensiones del data set son:
 - PROFUNDIDAD : Implica a cuantos km de la capa terrestre se detectó el movimiento.
 - MAGNITUD : Indica la escala en la que sucedió.
 
-### Implementado en:
+### Transformación de datos
 
+Utilizando excel convertimos a un formate de fecha  : =CONCAT(EXTRAE(B2,1,4),"/",EXTRAE(B2,5,2),"/",EXTRAE(B2,7,2))
+Utilizando excel convertimos a un formate de  hora  : =CONCAT(EXTRAE(C2,1,2),":",EXTRAE(C2,3,2),":",EXTRAE(C2,5,2))
+- Relizamos conversion a nuestro horario de peru
+Concatenamos los datos de fecha y hora, en caso de que la resta y tiempo haga referencia al dia anterior
+=CONCAT(I2," ",H2)
+Esta funcion afecta a la fecha y hora =NSHORA(RESIDUO(-5,24),0,0)+J2+ENTERO(-5/24)
 
 
 ## Resultado:
