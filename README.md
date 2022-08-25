@@ -8,9 +8,8 @@ INTEGRANTES
 
 ## Tema
 ## Objetivos
-
+Realizamos un analisis de los datos de sismos del Perú, en la cual se meustra un mapa coropletico de los sucesos sismicos por region
 ### Implementado en:
-
 ### Descripcion del problema
 
 ## Datos de entrada:
